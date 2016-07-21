@@ -1,0 +1,169 @@
+body {
+    background-color:#8EE7FF;
+    margin: 0;
+    padding: 0;
+    overflow: auto;   
+}
+
+.clear {
+	clear: both;
+}
+/* header */
+header {
+    height: 89px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.logo {
+    float: left;
+    height: 85px;
+    width: 110px;
+    border: 2px solid black;
+    
+}
+.title h1 {
+    height: 89px;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+    font: normal 120% serif;  
+}
+
+/* content */
+.content {
+    height: 490px;
+    width: 100%;
+    border: 1px solid #000000;
+}
+.mainmenu {
+    float: left;
+    height: 99%;
+    width: 200px;
+    border: 2px  solid #000000;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    
+    padding: 5px;
+    border: 1px  solid #000000;
+    background-color: #B6D7A8;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.menu li a:hover{
+    color: red;
+}
+
+#right_block {
+    margin-left: 200px;
+    height: 100%; 
+    overflow: hidden;
+      
+}
+.top_block {
+    width: 100%;
+    border: 2px solid #000000;
+    min-height: 290px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;   
+}
+
+.main_block {
+    border: 2px solid #000000;
+    background-color: #EAD1DC;
+    margin-top: 20px ;
+    margin-left: 40px;
+    height: 100px;
+    width: 25%;
+    overflow: auto;   
+}
+
+.text_block {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;   
+}
+
+#lenta:before {
+    content: '';
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-top: 20px solid red; 
+	border-right: 20px solid transparent;
+}
+
+.bottom_block {
+    min-height: 157px;   
+}
+
+.second_block {
+    border: 2px solid #000000;
+    background: #EAD1DC;
+    float: left;
+    width: 25%;
+    margin: 2%;
+    overflow:  auto;
+}
+
+.text_bottom_block {
+    display: table-cell;
+    height: 130px;
+    padding-left: 10px;    
+    vertical-align: middle;
+    text-align: left;
+    text-transform: uppercase;
+    
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    border: 1px solid #000000;   
+}
+
+.top_footer {
+    height: 50px;
+    border: 2px solid #000000;   
+    float: left;
+    width: 529px;   
+}
+
+.text_footer {
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    background: #FFE599;
+}
+
+.bottom_footer {
+    border: 2px solid #000000;
+    height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
